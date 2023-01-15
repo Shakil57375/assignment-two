@@ -83,6 +83,12 @@ Start of header section
     border: none;
     font-size: 1.2rem;
     font-weight: 600;
+    transition: 500ms ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transform: translate(-10px, -10px);
 }
 
 .header-img img{
@@ -186,6 +192,12 @@ Start of Love and Enjoy section
     display: flex;
     align-items: center;
     flex-direction: column;
+    transition: 500ms ease-in-out;
+}
+
+.img-btn .btn-1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transform: translate(-10px, -10px);
 }
 
 .img-btn .btn-1 > span{
@@ -286,7 +298,14 @@ Start of Some facts section
     border-radius: 0.8rem;
     width: 12rem;
     height: 14rem;
+    transition: 500ms;
 }
+
+.icons:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
 
 
 .icons .icon-text{
@@ -450,5 +469,77 @@ End of our footer Section
 @media only screen and (max-width:576px){
     .hide{
         display: none;
+    }
+    .header-container{
+        padding: 0.4rem 0.8rem 0.6rem 0.6rem;
+    }
+    .navigation ul{
+        flex-direction: column;
+        gap: 0.4rem;
+        background: #1fb4b1;
+        padding: 0.5rem 0.8rem;
+        border-radius: 10px;
+    }
+    .navigation ul li a{
+        color: #fff;
+    }
+    .header-img img{
+        width: 100%;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .feature-img-section{
+        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-column-gap: 2rem;
+        margin-top: 2rem;
+    }
+    .container{
+        padding: 0;
+    }
+    .feature-img-section img{
+        width: 100%;
+    }
+    .love_enjoy{
+        padding: 6rem 2rem 2rem;
+        flex-direction: column;
+    }
+    .love_enjoy_info{
+        flex-basis: 100%;
+    }
+    
+    .love_enjoy_img{
+        flex-basis: 100%;
+    }
+    .love_enjoy_title::before {
+        position: absolute;
+        bottom: -1px;
+        left: -1.3rem;
+        content: "";
+        height: 6rem;
+        width: 5px;
+        background: #FF900E;
+    }
+    .img-btn .btn-1 {
+        position: absolute;
+        bottom: -2rem;
+        left: 0rem;
+        padding: 1.5rem 1.8rem;
+        border-radius: 0.6rem;
+        background: #FF900E;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        transition: 500ms ease-in-out;
+    }
+    .img-btn .btn-1 > span{
+        font-size: 0.3rem;
+        font-weight: 400;
+        color: #fff;
     }
 }
