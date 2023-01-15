@@ -502,7 +502,7 @@ End of our footer Section
         width: 100%;
     }
     .love_enjoy{
-        padding: 6rem 2rem 2rem;
+        padding: 6rem 2rem 7rem;
         flex-direction: column;
     }
     .love_enjoy_info{
@@ -523,8 +523,8 @@ End of our footer Section
     }
     .img-btn .btn-1 {
         position: absolute;
-        bottom: -2rem;
-        left: 0rem;
+        bottom: -6rem;
+        left: 9rem;
         padding: 1.5rem 1.8rem;
         border-radius: 0.6rem;
         background: #FF900E;
@@ -541,5 +541,28 @@ End of our footer Section
         font-size: 0.3rem;
         font-weight: 400;
         color: #fff;
+    }
+    .facts_container{
+        padding: 3rem 2rem;
+    }
+    .icon_section{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .testimonial{
+        padding: 2rem 2rem;
+    }
+    .testimonial-row{
+        flex-direction: column;
+    }
+    .Sponspors{
+        padding: 2rem 2rem 1rem;
+    }
+    .sponsor_img{
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .footer{
+        padding: 1rem 0;
     }
 }
