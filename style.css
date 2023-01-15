@@ -282,22 +282,23 @@ Start of Some facts section
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 2.5rem 1.5rem;
     border: 1px solid #FF900E;
     border-radius: 0.8rem;
+    width: 12rem;
+    height: 14rem;
 }
 
 
 .icons .icon-text{
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 600;
     margin: 0.5rem 0;
     color: #424242;
 }
 
 .icon-info{
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 500;
     color: #727272;
 }
 /*-----------------
@@ -312,7 +313,7 @@ Start of testimonial section
 }
 
 .testimonial_title{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #131313;
     font-weight: 700;
     text-align: center;
@@ -372,3 +373,82 @@ Start of testimonial section
 /*-----------------
 End of testimonial section 
 ----------------------*/
+
+/*-----------------
+Start of our Sponsership Section 
+----------------------*/
+
+.Sponspors{
+    padding: 3rem 12rem 5rem;
+}
+
+.sponsor_title{
+    font-size: 2rem;
+    color: #131313;
+    font-weight: 700;
+    font-family: 'work sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.sponsor_dec p{
+    font-size: 0.82rem;
+    color: #727272;
+    font-weight: 400;
+    font-family: 'work sans', sans-serif;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.sponsor_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.sponsor_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 0rem 4rem 0;
+    transition: 600ms;
+}
+
+.sponsor_img img{
+    filter: brightness(0);
+}
+
+.sponsor_img img:hover{
+    filter: brightness(1);
+}
+
+/*-----------------
+End of Start of our Sponsership Section 
+----------------------*/
+
+/*-----------------
+Start of our footer Section 
+----------------------*/
+.footer{
+    padding: 3rem 12rem 5rem;
+}
+
+.footer-text{
+    font-size: 1rem;
+    font-weight: 400;
+    background: #FFF4E7;
+    width: 100%;
+    text-align: center;
+    padding: 2.4rem 0;
+}
+
+/*-----------------
+End of our footer Section 
+----------------------*/
+
+@media only screen and (max-width:576px){
+    .hide{
+        display: none;
+    }
+}
