@@ -66,12 +66,13 @@ Start of header section
     margin-bottom: 2rem;
 }
 .header-dec{
-    font-size: 1rem;
+    font-size: 0.82rem;
     color: #727272;
     font-weight: 400;
-    text-align: center;
     font-family: 'work sans', sans-serif;
+    text-align: center;
     margin-bottom: 2rem;
+    line-height: 1.2rem;
 }
 
 .btn{
@@ -102,7 +103,7 @@ Start of feature section
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .feature-img-section{
@@ -135,12 +136,12 @@ Start of feature section
 }
 
 .dec{
-    font-size: 1rem;
+    font-size: 0.82rem;
     color: #727272;
     font-weight: 400;
-    text-align: center;
     font-family: 'work sans', sans-serif;
     margin-bottom: 2rem;
+    line-height: 1.2rem;
 }
 /*-----------------
 End of feature section 
@@ -150,15 +151,20 @@ Start of Love and Enjoy section
 ----------------------*/
 
 .love_enjoy{
-    padding: 5rem 14rem;
+    padding: 3rem 10rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 4rem;
 }
 
+.love_enjoy_info{
+    flex-basis: 45%;
+}
+
 .love_enjoy_img{
     position: relative;
+    flex-basis: 45%;
 }
 
 .love_enjoy_img .img-sec > img{
@@ -188,5 +194,109 @@ Start of Love and Enjoy section
     color: #fff;
 }
 
+.love_enjoy_title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.love_enjoy_title::before{
+    position: absolute;
+    bottom: -1px;
+    left: -1.3rem;
+    content: "";
+    height: 6rem;
+    width: 5px;
+    background: #FF900E;
+}
+
+.love_enjoy_dec{
+    font-size: 0.82rem;
+    color: #727272;
+    font-weight: 400;
+    font-family: 'work sans', sans-serif;
+    margin-bottom: 2.5rem;
+    line-height: 1.2rem;
+    position: relative;
+    right: 1.4rem;
+}
+
+.love_enjoy_description div{
+    margin: 1rem 0rem;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 0.7;
+}
+
+.love_enjoy_description div h3{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.love_enjoy_description div .love_enjoy_pera{
+    font-size: 0.82rem;
+    color: #727272;
+    font-weight: 400;
+    font-family: 'work sans', sans-serif;
+    line-height: 1.2rem;
+    text-align: justify;
+}
+
+/*-----------------
+End of Love and Enjoy section 
+----------------------*/
+/*-----------------
+Start of Some facts section 
+----------------------*/
+
+.facts_container{
+    padding: 2rem 10rem;
+}
+
+.facts_container .facts_title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.fact_dec{
+    font-size: 0.82rem;
+    color: #727272;
+    font-weight: 400;
+    font-family: 'work sans', sans-serif;
+    margin-bottom: 2.5rem;
+    line-height: 1.4rem;
+}
+
+.icon_section{
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.5rem 1.5rem;
+    border: 1px solid #FF900E;
+    border-radius: 0.8rem;
+}
 
 
+.icons .icon-text{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    color: #424242;
+}
+
+.icon-info{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #727272;
+}
