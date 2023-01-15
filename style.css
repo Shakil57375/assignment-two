@@ -304,11 +304,11 @@ Start of Some facts section
 Start of Some facts section 
 ----------------------*/
 
-.what_our_client_says{
+.testimonial{
     padding: 2rem 10rem;
 }
 
-.client_says_title{
+.testimonial_title{
     font-size: 3rem;
     color: #131313;
     font-weight: 700;
