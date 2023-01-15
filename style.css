@@ -466,6 +466,10 @@ Start of our footer Section
 End of our footer Section 
 ----------------------*/
 
+/*-----------------
+Start of media querys for mobile screen size
+----------------------*/
+
 @media only screen and (max-width:576px){
     .hide{
         display: none;
@@ -567,6 +571,12 @@ End of our footer Section
     }
 }
 
+/*-----------------
+End of media querys for mobile screen size
+----------------------*/
+/*-----------------
+Start of media querys for Tablet screen size
+----------------------*/
 @media only screen and (min-width:577px) and (max-width:1024px){
     .hide{
         display: none;
@@ -668,3 +678,6 @@ End of our footer Section
         padding: 1rem 0;
     }
 }
+/*-----------------
+End of media querys for Tablet screen size
+----------------------*/
