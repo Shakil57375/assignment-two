@@ -303,3 +303,16 @@ Start of Some facts section
 /*-----------------
 Start of Some facts section 
 ----------------------*/
+
+.what_our_client_says{
+    padding: 2rem 10rem;
+}
+
+.client_says_title{
+    font-size: 3rem;
+    color: #131313;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'work sans', sans-serif;
+    margin-bottom: 2rem;
+}
